@@ -20,7 +20,23 @@ body{
 /* Navigation Menu */
 nav {
     background: rgba(222, 213, 213, 0.1);
-    backdrop-filter: blur(10px); /* Transparency & Blur Effect */
+    backdrop-filter: blur(10px);
+}
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: fit-content;
+  text-align: center;
+  background:rgba(0, 0, 0, 0.5);
+  color:white;
+  padding: 10px;
+  
+}
+
+
+
+
+    
     padding: 20px;
     text-align: center;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -108,4 +124,5 @@ button:hover {
     font-size: 24px;
     font-weight: bold;
     color: #e7ecea;
+
 }

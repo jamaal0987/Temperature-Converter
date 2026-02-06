@@ -18,11 +18,12 @@ btn.addEventListener('click', function() {
     let val = parseFloat(temp);
     
 // CALCULATING THE LOGIC
-    if (unit === "CtoF") {
+    if (unit === "celcius to farenhite") {
         let f = (val * 9/5) + 32;
         res.innerHTML = val + "°C = " + f.toFixed(2) + "°F";
     } else {
         let c = (val - 32) * 5/9;
         res.innerHTML = val + "°F = " + c.toFixed(2) + "°C";
     }
+
 });

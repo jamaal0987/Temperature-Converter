@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+   
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                url('FBGS-Temperature-sensing-fiber-optic-sensing-fiber-bragg-gartings.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navigation Menu */
+nav {
+    background: rgba(222, 213, 213, 0.1);
+    backdrop-filter: blur(10px); /* Transparency & Blur Effect */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #903525;
+    /* text-shadow: 0 0 10px #00d2ff; */
+}
+nav a:focus{
+  
+}
+/* Glassmorphism Container */
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    margin: auto;
+    padding: 40px;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    color: white;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+h2{
+  color:white;
+}
+/* Form Elements */
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    outline: none;
+}
+
+input::placeholder {
+    color: #ddd;
+}
+
+option {
+    background: #ed0606;
+    color: white;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #00d2ff, #dbdcde);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 10px;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #893925;
+}
+
+#resultText {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #e7ecea;
+}

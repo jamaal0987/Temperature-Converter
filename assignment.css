@@ -106,13 +106,11 @@ button:hover {
     color: #e7ecea;
 
 }
-.footer{
+.footer {
   position: fixed;
-  bottom: 0;
-  width: fit-content;
+  bottom: 20px;  
+  width: 100%;
   text-align: center;
-  background:rgba(0, 0, 0, 0.5);
-  color:white;
-  padding: 10px;
-  
+  color: white;
 }
+

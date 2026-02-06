@@ -21,7 +21,7 @@ btn.addEventListener('click', function() {
 
     // USING LOGICALL
     if (unit === "celcius to farenhite" && val < -273.15) {
-        res.innerHTML = "Error: Temperature below -273.15°C is impossible!";
+        res.innerHTML = "opps Temperature below -273.15°C is not even exist!";
         return;
     }
 // in order si an ugu shabano natijada soo abxda hadhowti
@@ -47,6 +47,7 @@ btn.addEventListener('click', function() {
     conversionHistory.push(dataObject);
     console.log("History Updated:", conversionHistory);
 });
+
 
 
 

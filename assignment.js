@@ -12,7 +12,7 @@ btn.addEventListener('click', function(){
      }
     res.style.color = "white";
     let val = parseFloat(temp);
-    if(unit === "celcius to farenhite" && val < - -273.15){
+    if(unit === "celcius to farenhite" && val <  -273.15){
         res.innerHTML = "opps Temperature below -273.15°C is not even exist!"
         return
     }
